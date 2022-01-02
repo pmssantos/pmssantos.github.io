@@ -1,0 +1,6 @@
+Template.html has the template for your site
+
+Multiple pages with the same template but different contents generated in following manner:
+
+ 1. Create a file with name 'body_<pagename>.html'; write in it the page-specific content
+ 2. Run gen_page.py to create pages named '<pagename>.html' with common template but independent content
